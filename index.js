@@ -6,8 +6,8 @@ const server = express();
 server.use(express.json());
 
 // GET /api/users
-server.get("", (req, res) => {
-  res.json();
+server.get("/api/users", (req, res) => {
+  res.json(["jwbw29", "justinbyrd7", "truesonMIZ", "justinwbyrd"]);
 });
 
 // POST /api/register
